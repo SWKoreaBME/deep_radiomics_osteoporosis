@@ -1,0 +1,18 @@
+Date: 2021-03-03
+
+versions: ['v1', 'v2', 'v3', 'v4', 'v5']
+model_type: mlp
+save_dir: ./cp/wholeside/mlp
+test_ratio: 0.2
+batch_size: 512
+num_df: 256
+epochs: 100
+random_state: 2021
+texture_tr: 0.01
+deep_tr: 0.03
+deep_feature_dir: /data01/swkim/AI_osteoporosis/df_wholeside
+texture_feature_dir: /data01/swkim/AI_osteoporosis/texture_feature
+snuh_brmh_clinic_feature_file: /data01/swkim/AI_osteoporosis/snuh_brmh_clinic_total.pickle
+label_file: /data01/swkim/AI_osteoporosis/label_dict_final.pickle
+data_type: ['development']
+description: Development
